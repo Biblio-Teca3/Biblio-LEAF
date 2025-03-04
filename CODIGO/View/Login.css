@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff; /* Color de fondo similar */
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #d2691e; /* Color del contenedor del formulario */
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(249, 249, 249); /* Color del texto de las etiquetas */
+}
+
+.form-group input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #e20000;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #8b0000; /* Color del botón Continuar */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-button {
+    background-color: #808080; /* Color gris */
+}
+
+.apple-image {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+}
