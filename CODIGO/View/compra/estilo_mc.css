@@ -1,0 +1,158 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* ====== ESTILOS PARA LA PÁGINA PRINCIPAL (libro.html) ====== */
+.card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: #9c5b22;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.prestamo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.comprar {
+    background-color: #5a2323;
+    color: white;
+}
+
+/* ====== ESTILOS PARA LA PÁGINA DEL TICKET DE COMPRA (ticket.html) ====== */
+.ticket {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icon {
+    background-color: #a4d68e;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.info-ticket {
+    background-color: #9c5b22;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.continuar {
+    background-color: #9c5b22;
+    color: white;
+}
+
+/* ====== ESTILOS PARA LA PÁGINA DE COMPRA (comprado.html) ====== */
+.comprado {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #5a2323;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.libro-img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.mascota-img {
+    width: 150px;
+}
+
+.continuar {
+    background-color: #9c5b22;
+    color: white;
+}
+
+/* ====== ESTILOS PARA LA NOTIFICACIÓN ====== */
+.message-box {
+    background-color: #9c5b22;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
