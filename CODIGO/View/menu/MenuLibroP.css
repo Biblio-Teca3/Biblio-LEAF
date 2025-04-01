@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.book-container {
+    background-color: #a05a1c;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.book-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.loan-button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.loan-button:hover {
+    background-color: #e6b800;
+}
