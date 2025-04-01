@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Libro</title>
+    <link rel="stylesheet" href="agregar_libro.css">
+</head>
+<body>
+    <div class="container">
+        <label for="image" class="image-upload">➕</label>
+        <input type="file" id="image" style="display: none;">
+        
+        <div class="details">
+            <p><strong id="bookTitle">Título del libro</strong></p>
+            <p id="bookAuthor">Autor</p>
+            <p id="bookCategory">Categoría</p>
+            <p id="bookISBN">ISBN</p>
+            <p id="bookSynopsis">Sinopsis</p>
+            <p id="bookQuantity">Cantidad</p>
+            <p id="bookPrice">Precio</p>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn loan">Préstamo</button>
+            <button class="btn sale">Venta</button>
+        </div>
+        
+        <button class="continue" onclick="addBook()">Continuar</button>
+    </div>
+</body>
+</html>
